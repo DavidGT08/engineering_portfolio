@@ -1451,6 +1451,17 @@ section,
   color: var(--accent-color);
 }
 
+
+    .video-slide {
+        display: flex;
+        justify-content: flex-start; /* Esto alinea el contenido a la izquierda */
+    }
+
+    .video-slide video {
+        margin-left: 10px; /* Ajusta el valor para desplazar el video más a la izquierda si es necesario */
+    }
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
